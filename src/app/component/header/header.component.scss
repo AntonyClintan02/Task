@@ -1,0 +1,52 @@
+a{
+  text-decoration: none;
+}
+
+.body{
+  height: 530px;
+  padding-top: 30px;
+}
+
+.float-end {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 350px;
+}
+.image2 {
+  position: absolute;
+  top: 0;
+  left:280px;
+}
+.image3 {
+  position: relative;
+  top: 0;
+  right:0;
+}
+.image4 {
+  position: absolute;
+  top: 380px;
+  right:440px;
+}
+.font1{
+  position: absolute;
+}
+
+.font2{
+  position: relative;
+  top: 150px;
+}
+
+.font2.btn{
+  margin-top: 10px;
+  border-radius: 30px;
+  background-color: #081429;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
