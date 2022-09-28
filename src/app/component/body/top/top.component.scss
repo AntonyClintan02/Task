@@ -1,0 +1,43 @@
+// .body{
+//     height: 530px;
+    
+//     padding-top: 30px;
+//   }
+  
+  .col{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: absolute;
+    top: 0;
+    left: 350px;
+  }
+  .image2 {
+    position: absolute;
+    top: 0;
+    left:280px;
+  }
+  .image3 {
+    position: relative;
+    top: 0;
+    right:0;
+  }
+  .image4 {
+    position: absolute;
+    top: 420px;
+    right:420px;
+  }
+  
+  
+  .btn{
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #081429;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+  

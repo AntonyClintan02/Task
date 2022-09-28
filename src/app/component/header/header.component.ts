@@ -11,8 +11,8 @@ export class HeaderComponent implements OnInit {
   constructor(private colorService:ColorService) { }
 
   ngOnInit(): void {
-    document.getElementById("slider").style.background = `linear-gradient(to right,white 50%,#ffee00 50%)`
-    document.getElementById("body").style.background = `linear-gradient(to right,white 50%,#ffee00 50% )`
+    document.getElementById("slider").style.background = `linear-gradient(to right,white 50%,goldenrod 50%)`
+    document.getElementById("body").style.background = `linear-gradient(to right,white 50%,goldenrod 50% )`
     this.colorService.color.subscribe(color=>{
       this.color = color
       console.log(color)
