@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mdb-angular-ui-kit-free": {
+    "task": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "mdb-angular-ui-kit-free:build:production"
+              "browserTarget": "task:build:production"
             },
             "development": {
-              "browserTarget": "mdb-angular-ui-kit-free:build:development"
+              "browserTarget": "task:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mdb-angular-ui-kit-free:build"
+            "browserTarget": "task:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "mdb-angular-ui-kit-free"
+  "defaultProject": "task"
 }
