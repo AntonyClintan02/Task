@@ -6,6 +6,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { BodyComponent } from './component/body/body.component';
+import { TopComponent } from './component/body/top/top.component';
+import { PartnersComponent } from './component/body/partners/partners.component';
+import { ServicesComponent } from './component/body/services/services.component';
+import { WorksComponent } from './component/body/works/works.component';
+import { WhyComponent } from './component/body/why/why.component';
+import { SayComponent } from './component/body/say/say.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +19,12 @@ import { BodyComponent } from './component/body/body.component';
     HeaderComponent,
     FooterComponent,
     BodyComponent,
+    TopComponent,
+    PartnersComponent,
+    ServicesComponent,
+    WorksComponent,
+    WhyComponent,
+    SayComponent,
   ],
   imports: [
     BrowserModule,

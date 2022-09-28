@@ -1,0 +1,47 @@
+.say{
+    height: 400px;
+    background-color: #081429;
+}
+
+#font{
+    font-size: 30px;
+    color: goldenrod;
+}
+
+#contentBlock{
+    border-radius:25px ;
+    height: 400px;
+}
+
+.upload{
+    margin-top: 100px;
+}
+
+#col1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1 {
+    position: absolute;
+    top: 0;
+    left: 120px;
+}
+.image3 {
+    position: relative;
+    top: 0;
+}
+
+#col2{
+    margin-top: 100px;
+}
+
+.btn{
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #081429;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
